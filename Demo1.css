@@ -1,0 +1,118 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body{
+        margin: 0;
+        font-family:Arial, sans-serif ;
+        background-color: #f0f2f5;
+
+    }
+
+    nav {
+      background-color: #222;
+      color: white;
+      padding: 10px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+        font-size: 24px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .nav-links a:hover {
+      color: #706c6c;
+    }
+
+    .event-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+      padding: 40px 20px;
+      background-color: white;
+      max-width: 1200px;
+      margin: 40px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .event-box {
+      background-color: #333;
+      color: white;
+      width: 180px;
+      height: 120px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .event-box:hover {
+      background-color: #706c6c;
+      color: #000;
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    .schedule-section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #333;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding:15px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #aaa;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #332828;
+    } 
